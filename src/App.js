@@ -8,7 +8,7 @@ const App = () => {
       <Layout>
         <Switch>
           <Route path="/" component={Notes} exact />
-          <Route path="/note/:id" component={Note} exact />
+          <Route path="/notes/:id" component={Note} exact />
         </Switch>
       </Layout>
     </Router>

@@ -16,7 +16,7 @@ const NoteListItem = ({data, handleRemove}) => {
     return (
         <div style={containerStyle}>
             <span style={style} onClick={() => handleRemove(data.id)}>delete</span> <br /> 
-            <p style={style} onClick={() => history.push('/note/' + data.id)}>
+            <p style={style} onClick={() => history.push('/notes/' + data.id)}>
                 {data.content}
             </p>
         </div>
